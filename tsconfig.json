@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "target": "es2020",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "outDir": "dist"
+  },
+  "include": [
+    "src/**/*",
+    "tests/**/*",
+    "webpack.config.ts",
+    "scripts/**/*",
+    "packages/**/*"
+  ]
+}

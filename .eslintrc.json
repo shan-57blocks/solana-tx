@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "eslint-plugin-node"],
+  "rules": {
+    "prefer-const": "error",
+    "@typescript-eslint/ban-ts-comment": "off"
+  },
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "ignorePatterns": ["dist", "tsconfig.json", "webpack.config.js", "packages"]
+}
